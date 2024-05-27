@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling for cards */
+.red-card, .blue-card, .cyan-card, .yellow-card {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.red-card {
+    border-top: 5px solid #f28b82; /* Example color for red card */
+}
+
+.blue-card {
+    border-top: 5px solid #aecbfa; /* Example color for blue card */
+}
+
+.cyan-card {
+    border-top: 5px solid #cbf0f8; /* Example color for cyan card */
+}
+
+.yellow-card {
+    border-top: 5px solid #fff475; /* Example color for yellow card */
+}
+
+/* Responsive text sizing */
+h1, h3 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+img {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Media queries for responsive design */
+@media (min-width: 600px) {
+    .red-card, .blue-card, .cyan-card, .yellow-card {
+        width: 45%;
+        float: left;
+    }
+}
+
+@media (min-width: 1000px) {
+    .red-card, .blue-card, .cyan-card, .yellow-card {
+        width: 22%;
+        float: left;
+    }
+}
