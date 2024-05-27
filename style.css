@@ -16,6 +16,8 @@
         font-family: 'Poppins';
         background-color: var(--Very-Light-Gray);
         color: var(--very-Dark-Blue);
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .cards {
